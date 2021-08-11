@@ -13,18 +13,53 @@ class ViewControllerI: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = UIColor.red
+        navigationController?.navigationBar.isHidden = true
+        view.backgroundColor = UIColor.white
+        
+        
+        let viewI = UIView(frame: CGRect.zero)
+        viewI.frame = CGRect(x: 100, y: 200, width: 50, height: 50)
+        viewI.backgroundColor = UIColor.red
+        viewI.tag = 101;
+        print(viewI.center)
+        print(viewI.frame.origin.x)
+        print(viewI.frame.minX)
+        print(viewI.frame.midX)
+        print(viewI.frame.maxX)
+        view.addSubview(viewI)
+        
+        let viewII = UIView(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
+        viewII.backgroundColor = UIColor.green
+        viewI.addSubview(viewII)
+
+//        bounds是基于自身坐标系的,
+//        视图的bounds默认原点是(0,0),修改bounds的原点,只会影响子视图的位置,原视图不会发生变化
+        viewI.bounds = CGRect(x: 10, y: 10, width: 100, height: 100)//结果 子视图向父视图的左上移动
+        
+//        通过bounds修改视图的width或height时,是以中心点为基准的,视图frame的原点也会随之改变
+        let viewIII = UIView(frame: CGRect(x: 40, y: 40, width: 100, height: 100))
+        viewIII.bounds = CGRect(x: 0, y: 0, width: 120, height: 120)
+        print(viewIII.frame)//结果为 (30.0, 30.0, 120.0, 120.0)
+        
+        viewIII.backgroundColor = UIColor(red: 248, green: 248, blue: 248, alpha: 0.5)
+        view.addSubview(viewIII)
+        
+        print(view.subviews)
+        print(viewI.superview!)
+        
+        view.bringSubviewToFront(viewI)
+        view.sendSubviewToBack(viewI)
+        
+        viewIII.removeFromSuperview()
+        
+        let viewIV = view.viewWithTag(101)
+        print(viewIV!)
+        
+        
+        Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true) { Timer in
+            viewI.backgroundColor = UIColor(red: CGFloat(arc4random() % 256) / 255.0, green:CGFloat(arc4random() % 256) / 255.0, blue:CGFloat(arc4random() % 256) / 255.0, alpha:1.0)
+        }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

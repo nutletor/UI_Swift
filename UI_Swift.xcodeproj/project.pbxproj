@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1758E52126C3FDCA008C4C36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1758E52026C3FDCA008C4C36 /* ViewController.swift */; };
 		17E6FBF926C3DA9B003D3761 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E6FBF826C3DA9B003D3761 /* AppDelegate.swift */; };
 		17E6FBFB26C3DA9B003D3761 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E6FBFA26C3DA9B003D3761 /* SceneDelegate.swift */; };
 		17E6FC0026C3DA9B003D3761 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17E6FBFE26C3DA9B003D3761 /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1758E52026C3FDCA008C4C36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		17E6FBF526C3DA9B003D3761 /* UI_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UI_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E6FBF826C3DA9B003D3761 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17E6FBFA26C3DA9B003D3761 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,9 +121,10 @@
 			children = (
 				17E6FBF826C3DA9B003D3761 /* AppDelegate.swift */,
 				17E6FBFA26C3DA9B003D3761 /* SceneDelegate.swift */,
+				1758E52026C3FDCA008C4C36 /* ViewController.swift */,
 				17E6FBFE26C3DA9B003D3761 /* Main.storyboard */,
-				17E6FC3326C3DD24003D3761 /* TabBarVC */,
 				17E6FC2826C3DD19003D3761 /* NaviVC */,
+				17E6FC3326C3DD24003D3761 /* TabBarVC */,
 				17E6FC0126C3DA9C003D3761 /* Assets.xcassets */,
 				17E6FC0326C3DA9C003D3761 /* LaunchScreen.storyboard */,
 				17E6FC0626C3DA9C003D3761 /* Info.plist */,
@@ -310,6 +313,7 @@
 				17E6FC3926C3DD24003D3761 /* NavigationControllerI.swift in Sources */,
 				17E6FBF926C3DA9B003D3761 /* AppDelegate.swift in Sources */,
 				17E6FBFB26C3DA9B003D3761 /* SceneDelegate.swift in Sources */,
+				1758E52126C3FDCA008C4C36 /* ViewController.swift in Sources */,
 				17E6FC2F26C3DD1A003D3761 /* ViewControllerI.swift in Sources */,
 				17E6FC3B26C3DD24003D3761 /* MainTabBarVC.swift in Sources */,
 				17E6FC3226C3DD1A003D3761 /* ViewControllerIV.swift in Sources */,
