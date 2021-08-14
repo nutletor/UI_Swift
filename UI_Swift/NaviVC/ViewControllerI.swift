@@ -8,15 +8,45 @@
 
 import UIKit
 
+import SnapKit
+
 class ViewControllerI: UIViewController {
+    
+//    let pushBtn: UIButton = {
+//        let button = UIButton()
+//        return button
+//    }()
+    
+//    lazy var pushBtn = UIButton()
+    lazy var pushBtn: UIButton = {
+        var button = UIButton()
+        button.backgroundColor = .blue
+        return button
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        navigationController?.navigationBar.isHidden = true
+//        是否隐藏导航栏
+//        navigationController?.navigationBar.isHidden = true
+
         view.backgroundColor = UIColor.white
         
-        
+        setupUI()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+//        改变NaviVC导航栏风格，间接改变当前VC状态栏字体颜色
+        navigationController?.navigationBar.barStyle = UIBarStyle.black
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationController?.navigationBar.barStyle = UIBarStyle.default
+    }
+    
+    func setupUI() {
         let viewI = UIView(frame: CGRect.zero)
         viewI.frame = CGRect(x: 100, y: 200, width: 50, height: 50)
         viewI.backgroundColor = UIColor.red
@@ -56,10 +86,17 @@ class ViewControllerI: UIViewController {
         print(viewIV!)
         
         
-        Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true) { Timer in
+        Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true) { timer in
             viewI.backgroundColor = UIColor(red: CGFloat(arc4random() % 256) / 255.0, green:CGFloat(arc4random() % 256) / 255.0, blue:CGFloat(arc4random() % 256) / 255.0, alpha:1.0)
         }
+        
+        view.addSubview(pushBtn)
+        pushBtn.snp.makeConstraints { make in
+            make.center.equalToSuperview()
+            make.width.equalTo(100)
+            make.height.equalTo(50)
+        }
+        
+        
     }
-    
-
 }
