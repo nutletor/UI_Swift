@@ -8,7 +8,14 @@ target 'UI_Swift' do
 
   # Pods for UI_Swift
 
+pod 'RxSwift', '6.2.0'
+pod 'RxCocoa', '6.2.0'
 
+pod 'SwiftyJSON', '~> 4.0'
+
+pod 'Kingfisher', '~> 6.3.1'
+
+pod 'NVActivityIndicatorView'
 
 
 
