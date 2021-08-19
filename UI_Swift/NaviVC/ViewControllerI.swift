@@ -8,9 +8,13 @@
 
 import UIKit
 
+import RxCocoa
+import RxSwift
 import SnapKit
 
 class ViewControllerI: UIViewController {
+    
+    var disposeBag = DisposeBag()
     
 //    let pushBtn: UIButton = {
 //        let button = UIButton()
@@ -97,6 +101,17 @@ class ViewControllerI: UIViewController {
             make.height.equalTo(50)
         }
         
+        pushBtn.rx.tap
+//            .bind {
+//                print("push")
+//            }
+            .bind(onNext: { [weak self] in
+                self?.navigationController?.pushViewController(ViewControllerII(), animated: true)
+                print("push")
+            })
+            .disposed(by: disposeBag)
         
+        
+
     }
 }
