@@ -8,35 +8,15 @@
 
 import UIKit
 
-import RxCocoa
-import RxSwift
-import SnapKit
-
-class ViewControllerI: UIViewController {
+class ViewControllerI: MyViewController {
     
-    var disposeBag = DisposeBag()
-    
-//    let pushBtn: UIButton = {
-//        let button = UIButton()
-//        return button
-//    }()
-    
-//    lazy var pushBtn = UIButton()
-    lazy var pushBtn: UIButton = {
-        var button = UIButton()
-        button.backgroundColor = .blue
-        return button
-    }()
-
     override func viewDidLoad() {
         super.viewDidLoad()
         
 //        是否隐藏导航栏
 //        navigationController?.navigationBar.isHidden = true
-
-        view.backgroundColor = UIColor.white
         
-        setupUI()
+        makeUI()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -50,7 +30,7 @@ class ViewControllerI: UIViewController {
         navigationController?.navigationBar.barStyle = UIBarStyle.default
     }
     
-    func setupUI() {
+    func makeUI() {
         let viewI = UIView(frame: CGRect.zero)
         viewI.frame = CGRect(x: 100, y: 200, width: 50, height: 50)
         viewI.backgroundColor = UIColor.red
@@ -61,11 +41,12 @@ class ViewControllerI: UIViewController {
         print(viewI.frame.midX)
         print(viewI.frame.maxX)
         view.addSubview(viewI)
+        changeColor(viewI)
         
         let viewII = UIView(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
         viewII.backgroundColor = UIColor.green
         viewI.addSubview(viewII)
-
+        
 //        bounds是基于自身坐标系的,
 //        视图的bounds默认原点是(0,0),修改bounds的原点,只会影响子视图的位置,原视图不会发生变化
         viewI.bounds = CGRect(x: 10, y: 10, width: 100, height: 100)//结果 子视图向父视图的左上移动
@@ -88,30 +69,11 @@ class ViewControllerI: UIViewController {
         
         let viewIV = view.viewWithTag(101)
         print(viewIV!)
-        
-        
+    }
+    
+    func changeColor(_ view:UIView) {
         Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true) { timer in
-            viewI.backgroundColor = UIColor(red: CGFloat(arc4random() % 256) / 255.0, green:CGFloat(arc4random() % 256) / 255.0, blue:CGFloat(arc4random() % 256) / 255.0, alpha:1.0)
+            view.backgroundColor = UIColor(red: CGFloat(arc4random() % 256) / 255.0, green:CGFloat(arc4random() % 256) / 255.0, blue:CGFloat(arc4random() % 256) / 255.0, alpha:1.0)
         }
-        
-        view.addSubview(pushBtn)
-        pushBtn.snp.makeConstraints { make in
-            make.center.equalToSuperview()
-            make.width.equalTo(100)
-            make.height.equalTo(50)
-        }
-        
-        pushBtn.rx.tap
-//            .bind {
-//                print("push")
-//            }
-            .bind(onNext: { [weak self] in
-                self?.navigationController?.pushViewController(ViewControllerII(), animated: true)
-                print("push")
-            })
-            .disposed(by: disposeBag)
-        
-        
-
     }
 }

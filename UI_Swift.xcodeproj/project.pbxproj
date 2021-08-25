@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1745775926D6089E00320B1D /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745775826D6089E00320B1D /* MyViewController.swift */; };
 		1758E52126C3FDCA008C4C36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1758E52026C3FDCA008C4C36 /* ViewController.swift */; };
 		17E6FBF926C3DA9B003D3761 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E6FBF826C3DA9B003D3761 /* AppDelegate.swift */; };
 		17E6FBFB26C3DA9B003D3761 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E6FBFA26C3DA9B003D3761 /* SceneDelegate.swift */; };
@@ -48,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1745775826D6089E00320B1D /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		1758E52026C3FDCA008C4C36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		17E6FBF526C3DA9B003D3761 /* UI_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UI_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E6FBF826C3DA9B003D3761 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1745775726D6086500320B1D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1745775826D6089E00320B1D /* MyViewController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		17E6FBEC26C3DA9B003D3761 = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +150,7 @@
 				17E6FBFA26C3DA9B003D3761 /* SceneDelegate.swift */,
 				1758E52026C3FDCA008C4C36 /* ViewController.swift */,
 				17E6FBFE26C3DA9B003D3761 /* Main.storyboard */,
+				1745775726D6086500320B1D /* Common */,
 				17E6FC2826C3DD19003D3761 /* NaviVC */,
 				17E6FC3326C3DD24003D3761 /* TabBarVC */,
 				17E6FC0126C3DA9C003D3761 /* Assets.xcassets */,
@@ -467,6 +478,7 @@
 				17E6FBFB26C3DA9B003D3761 /* SceneDelegate.swift in Sources */,
 				1758E52126C3FDCA008C4C36 /* ViewController.swift in Sources */,
 				17E6FC2F26C3DD1A003D3761 /* ViewControllerI.swift in Sources */,
+				1745775926D6089E00320B1D /* MyViewController.swift in Sources */,
 				17E6FC3B26C3DD24003D3761 /* MainTabBarVC.swift in Sources */,
 				17E6FC3226C3DD1A003D3761 /* ViewControllerIV.swift in Sources */,
 				17E6FC3A26C3DD24003D3761 /* NaviVCII_VCI.swift in Sources */,
@@ -646,8 +658,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D4X9CN9GC7;
+				DEVELOPMENT_TEAM = D9D3S783C8;
 				INFOPLIST_FILE = UI_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -655,6 +668,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "nutletor.UI-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -666,8 +680,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D4X9CN9GC7;
+				DEVELOPMENT_TEAM = D9D3S783C8;
 				INFOPLIST_FILE = UI_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -675,6 +690,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "nutletor.UI-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
