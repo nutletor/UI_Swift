@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1745775926D6089E00320B1D /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745775826D6089E00320B1D /* MyViewController.swift */; };
+		1745775C26D7378100320B1D /* ClassModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745775B26D7378100320B1D /* ClassModel.swift */; };
+		1745775E26D7379200320B1D /* StructModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745775D26D7379200320B1D /* StructModel.swift */; };
+		1745776226D75F0500320B1D /* PlaygroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745776126D75F0500320B1D /* PlaygroundViewController.swift */; };
 		1758E52126C3FDCA008C4C36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1758E52026C3FDCA008C4C36 /* ViewController.swift */; };
 		17E6FBF926C3DA9B003D3761 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E6FBF826C3DA9B003D3761 /* AppDelegate.swift */; };
 		17E6FBFB26C3DA9B003D3761 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E6FBFA26C3DA9B003D3761 /* SceneDelegate.swift */; };
@@ -50,6 +53,9 @@
 
 /* Begin PBXFileReference section */
 		1745775826D6089E00320B1D /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		1745775B26D7378100320B1D /* ClassModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassModel.swift; sourceTree = "<group>"; };
+		1745775D26D7379200320B1D /* StructModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructModel.swift; sourceTree = "<group>"; };
+		1745776126D75F0500320B1D /* PlaygroundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundViewController.swift; sourceTree = "<group>"; };
 		1758E52026C3FDCA008C4C36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		17E6FBF526C3DA9B003D3761 /* UI_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UI_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E6FBF826C3DA9B003D3761 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +127,23 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		1745775A26D731AD00320B1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1745776426D76EFF00320B1D /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				1745776126D75F0500320B1D /* PlaygroundViewController.swift */,
+				1745775B26D7378100320B1D /* ClassModel.swift */,
+				1745775D26D7379200320B1D /* StructModel.swift */,
+			);
+			path = Playground;
+			sourceTree = "<group>";
+		};
 		17E6FBEC26C3DA9B003D3761 = {
 			isa = PBXGroup;
 			children = (
@@ -148,13 +171,15 @@
 			children = (
 				17E6FBF826C3DA9B003D3761 /* AppDelegate.swift */,
 				17E6FBFA26C3DA9B003D3761 /* SceneDelegate.swift */,
-				1758E52026C3FDCA008C4C36 /* ViewController.swift */,
-				17E6FBFE26C3DA9B003D3761 /* Main.storyboard */,
+				1745776426D76EFF00320B1D /* Playground */,
+				1745775A26D731AD00320B1D /* Model */,
 				1745775726D6086500320B1D /* Common */,
 				17E6FC2826C3DD19003D3761 /* NaviVC */,
 				17E6FC3326C3DD24003D3761 /* TabBarVC */,
 				17E6FC0126C3DA9C003D3761 /* Assets.xcassets */,
 				17E6FC0326C3DA9C003D3761 /* LaunchScreen.storyboard */,
+				17E6FBFE26C3DA9B003D3761 /* Main.storyboard */,
+				1758E52026C3FDCA008C4C36 /* ViewController.swift */,
 				17E6FC0626C3DA9C003D3761 /* Info.plist */,
 			);
 			path = UI_Swift;
@@ -470,11 +495,14 @@
 			files = (
 				17E6FC3D26C3DD24003D3761 /* NaviVCI_VCI.swift in Sources */,
 				17E6FC2E26C3DD1A003D3761 /* ViewControllerIII.swift in Sources */,
+				1745775E26D7379200320B1D /* StructModel.swift in Sources */,
 				17E6FC3C26C3DD24003D3761 /* NavigationControllerII.swift in Sources */,
+				1745775C26D7378100320B1D /* ClassModel.swift in Sources */,
 				17E6FC3026C3DD1A003D3761 /* MainNaviVC.swift in Sources */,
 				17E6FC3126C3DD1A003D3761 /* ViewControllerII.swift in Sources */,
 				17E6FC3926C3DD24003D3761 /* NavigationControllerI.swift in Sources */,
 				17E6FBF926C3DA9B003D3761 /* AppDelegate.swift in Sources */,
+				1745776226D75F0500320B1D /* PlaygroundViewController.swift in Sources */,
 				17E6FBFB26C3DA9B003D3761 /* SceneDelegate.swift in Sources */,
 				1758E52126C3FDCA008C4C36 /* ViewController.swift in Sources */,
 				17E6FC2F26C3DD1A003D3761 /* ViewControllerI.swift in Sources */,

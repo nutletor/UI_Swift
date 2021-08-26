@@ -16,24 +16,28 @@ class MyViewController: UIViewController {
     
     var disposeBag = DisposeBag()
     
-    //    let pushBtn = UIButton()
-
-    //    let pushBtn: UIButton = {
-    //        let button = UIButton()
-    //        return button
-    //    }()
+//    let pushBtn = UIButton()
+//
+//    let pushBtn: UIButton = {
+//        let button = UIButton()
+//        return button
+//    }()
         
-        lazy var pushBtn: UIButton = {
-            var button = UIButton()
-            button.backgroundColor = .blue
-            button.setTitle("Push", for: UIControl.State.normal)
-            button.setTitleColor(UIColor.white, for: UIControl.State.normal)
-            return button
-        }()
+    lazy var pushBtn: UIButton = {
+        var button = UIButton()
+        button.backgroundColor = .blue
+        button.setTitle("Push", for: UIControl.State.normal)
+        button.setTitleColor(UIColor.white, for: UIControl.State.normal)
+        return button
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        customUI()
+    }
+    
+    func customUI() {
         view.backgroundColor = UIColor.white
         
         view.addSubview(pushBtn)
@@ -52,6 +56,4 @@ class MyViewController: UIViewController {
             })
             .disposed(by: disposeBag)
     }
-    
-    
 }
