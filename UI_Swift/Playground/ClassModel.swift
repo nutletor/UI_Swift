@@ -58,6 +58,12 @@ class MyClass {
     }
 }
 
+class MyClass1 {
+//    class var bar: String {
+//        return "1"
+//    }
+}
+
 //static修饰的类方法不能继承；class修饰的类方法可以继承
 class SubClass: MyClass {
     override class func classFunc() {

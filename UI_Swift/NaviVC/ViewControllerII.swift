@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import WebKit
 
 class ViewControllerII: MyViewController {
     
@@ -33,6 +34,16 @@ class ViewControllerII: MyViewController {
             make.width.equalTo(100)
             make.height.equalTo(50)
         }
+        
+        let textFldI = UITextField()
+        textFldI.backgroundColor = UIColor.yellow
+        textFldI.borderStyle = UITextField.BorderStyle.roundedRect
+        textFldI.placeholder = "携番を入力してください"
+        textFldI.clearButtonMode = UITextField.ViewMode.whileEditing
+        textFldI.keyboardType = UIKeyboardType.default
+        textFldI.isSecureTextEntry = true
+        textFldI.returnKeyType = UIReturnKeyType.default
+        
         
         
         
