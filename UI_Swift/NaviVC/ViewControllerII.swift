@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import WebKit
 
 class ViewControllerII: MyViewController {
     
@@ -39,11 +38,17 @@ class ViewControllerII: MyViewController {
         textFldI.backgroundColor = UIColor.yellow
         textFldI.borderStyle = UITextField.BorderStyle.roundedRect
         textFldI.placeholder = "携番を入力してください"
-        textFldI.clearButtonMode = UITextField.ViewMode.whileEditing
-        textFldI.keyboardType = UIKeyboardType.default
         textFldI.isSecureTextEntry = true
+        textFldI.keyboardType = UIKeyboardType.default
         textFldI.returnKeyType = UIReturnKeyType.default
-        
+        textFldI.clearButtonMode = UITextField.ViewMode.whileEditing
+        view.addSubview(textFldI)
+        textFldI.snp.makeConstraints { make in
+            make.top.equalTo(labelI)
+            make.centerX.equalToSuperview()
+            make.width.equalTo(100)
+            make.height.equalTo(50)
+        }
         
         
         

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1727786A26DF14F1009F85C3 /* CollectionViewControllerI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1727786926DF14F1009F85C3 /* CollectionViewControllerI.swift */; };
+		1727786C26DF1B4E009F85C3 /* CollectionVCI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1727786B26DF1B4E009F85C3 /* CollectionVCI.swift */; };
+		1727786E26DF1BAE009F85C3 /* TagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1727786D26DF1BAE009F85C3 /* TagCell.swift */; };
+		1727787126DF2A9F009F85C3 /* UIColor+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1727787026DF2A9F009F85C3 /* UIColor+UI.swift */; };
 		1745775926D6089E00320B1D /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745775826D6089E00320B1D /* MyViewController.swift */; };
 		1745775C26D7378100320B1D /* ClassModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745775B26D7378100320B1D /* ClassModel.swift */; };
 		1745775E26D7379200320B1D /* StructModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745775D26D7379200320B1D /* StructModel.swift */; };
@@ -52,6 +56,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1727786926DF14F1009F85C3 /* CollectionViewControllerI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewControllerI.swift; sourceTree = "<group>"; };
+		1727786B26DF1B4E009F85C3 /* CollectionVCI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionVCI.swift; sourceTree = "<group>"; };
+		1727786D26DF1BAE009F85C3 /* TagCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCell.swift; sourceTree = "<group>"; };
+		1727787026DF2A9F009F85C3 /* UIColor+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+UI.swift"; sourceTree = "<group>"; };
 		1745775826D6089E00320B1D /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		1745775B26D7378100320B1D /* ClassModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassModel.swift; sourceTree = "<group>"; };
 		1745775D26D7379200320B1D /* StructModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructModel.swift; sourceTree = "<group>"; };
@@ -119,6 +127,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1727786826DF14C2009F85C3 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				1727786926DF14F1009F85C3 /* CollectionViewControllerI.swift */,
+				1727786B26DF1B4E009F85C3 /* CollectionVCI.swift */,
+				1727786D26DF1BAE009F85C3 /* TagCell.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		1727786F26DF29D1009F85C3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1727787026DF2A9F009F85C3 /* UIColor+UI.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		1745775726D6086500320B1D /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,11 +197,13 @@
 			children = (
 				17E6FBF826C3DA9B003D3761 /* AppDelegate.swift */,
 				17E6FBFA26C3DA9B003D3761 /* SceneDelegate.swift */,
+				1727786F26DF29D1009F85C3 /* Extension */,
 				1745776426D76EFF00320B1D /* Playground */,
 				1745775A26D731AD00320B1D /* Model */,
 				1745775726D6086500320B1D /* Common */,
 				17E6FC2826C3DD19003D3761 /* NaviVC */,
 				17E6FC3326C3DD24003D3761 /* TabBarVC */,
+				1727786826DF14C2009F85C3 /* CollectionView */,
 				17E6FC0126C3DA9C003D3761 /* Assets.xcassets */,
 				17E6FC0326C3DA9C003D3761 /* LaunchScreen.storyboard */,
 				17E6FBFE26C3DA9B003D3761 /* Main.storyboard */,
@@ -495,6 +523,9 @@
 			files = (
 				17E6FC3D26C3DD24003D3761 /* NaviVCI_VCI.swift in Sources */,
 				17E6FC2E26C3DD1A003D3761 /* ViewControllerIII.swift in Sources */,
+				1727786C26DF1B4E009F85C3 /* CollectionVCI.swift in Sources */,
+				1727786A26DF14F1009F85C3 /* CollectionViewControllerI.swift in Sources */,
+				1727787126DF2A9F009F85C3 /* UIColor+UI.swift in Sources */,
 				1745775E26D7379200320B1D /* StructModel.swift in Sources */,
 				17E6FC3C26C3DD24003D3761 /* NavigationControllerII.swift in Sources */,
 				1745775C26D7378100320B1D /* ClassModel.swift in Sources */,
@@ -503,6 +534,7 @@
 				17E6FC3926C3DD24003D3761 /* NavigationControllerI.swift in Sources */,
 				17E6FBF926C3DA9B003D3761 /* AppDelegate.swift in Sources */,
 				1745776226D75F0500320B1D /* PlaygroundViewController.swift in Sources */,
+				1727786E26DF1BAE009F85C3 /* TagCell.swift in Sources */,
 				17E6FBFB26C3DA9B003D3761 /* SceneDelegate.swift in Sources */,
 				1758E52126C3FDCA008C4C36 /* ViewController.swift in Sources */,
 				17E6FC2F26C3DD1A003D3761 /* ViewControllerI.swift in Sources */,
