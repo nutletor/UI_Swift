@@ -1,5 +1,5 @@
 //
-//  NaviVCII_VCI.swift
+//  NaviVC_II_VC_I.swift
 //  UI_Swift
 //
 //  Created by PxLand on 2021/8/11.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class NaviVCII_VCI: UIViewController {
+class NaviVC_II_VC_I: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

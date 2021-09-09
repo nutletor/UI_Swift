@@ -52,7 +52,7 @@ class MyViewController: UIViewController {
 //                print("push")
 //            }
             .bind(onNext: { [weak self] in
-                self?.navigationController?.pushViewController(ViewControllerII(), animated: true)
+                self?.navigationController?.pushViewController(ViewController_II(), animated: true)
             })
             .disposed(by: disposeBag)
     }

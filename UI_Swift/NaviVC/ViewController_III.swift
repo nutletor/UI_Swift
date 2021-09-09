@@ -1,5 +1,5 @@
 //
-//  NavigationControllerII.swift
+//  ViewController_III.swift
 //  UI_Swift
 //
 //  Created by PxLand on 2021/8/11.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class NavigationControllerII: UINavigationController {
+class ViewController_III: MyViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
