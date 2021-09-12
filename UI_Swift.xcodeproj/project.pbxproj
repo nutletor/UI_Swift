@@ -23,16 +23,16 @@
 		17E6FC0526C3DA9C003D3761 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17E6FC0326C3DA9C003D3761 /* LaunchScreen.storyboard */; };
 		17E6FC1026C3DA9D003D3761 /* UI_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E6FC0F26C3DA9D003D3761 /* UI_SwiftTests.swift */; };
 		17E6FC1B26C3DA9D003D3761 /* UI_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E6FC1A26C3DA9D003D3761 /* UI_SwiftUITests.swift */; };
-		17E6FC2E26C3DD1A003D3761 /* ViewControllerIII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E6FC2926C3DD19003D3761 /* ViewControllerIII.swift */; };
-		17E6FC2F26C3DD1A003D3761 /* ViewControllerI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E6FC2A26C3DD19003D3761 /* ViewControllerI.swift */; };
+		17E6FC2E26C3DD1A003D3761 /* ViewController_III.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E6FC2926C3DD19003D3761 /* ViewController_III.swift */; };
+		17E6FC2F26C3DD1A003D3761 /* ViewController_I.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E6FC2A26C3DD19003D3761 /* ViewController_I.swift */; };
 		17E6FC3026C3DD1A003D3761 /* MainNaviVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E6FC2B26C3DD19003D3761 /* MainNaviVC.swift */; };
-		17E6FC3126C3DD1A003D3761 /* ViewControllerII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E6FC2C26C3DD19003D3761 /* ViewControllerII.swift */; };
-		17E6FC3226C3DD1A003D3761 /* ViewControllerIV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E6FC2D26C3DD19003D3761 /* ViewControllerIV.swift */; };
-		17E6FC3926C3DD24003D3761 /* NavigationControllerI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E6FC3426C3DD24003D3761 /* NavigationControllerI.swift */; };
-		17E6FC3A26C3DD24003D3761 /* NaviVCII_VCI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E6FC3526C3DD24003D3761 /* NaviVCII_VCI.swift */; };
+		17E6FC3126C3DD1A003D3761 /* ViewController_II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E6FC2C26C3DD19003D3761 /* ViewController_II.swift */; };
+		17E6FC3226C3DD1A003D3761 /* ViewController_IV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E6FC2D26C3DD19003D3761 /* ViewController_IV.swift */; };
+		17E6FC3926C3DD24003D3761 /* NaviVC_I.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E6FC3426C3DD24003D3761 /* NaviVC_I.swift */; };
+		17E6FC3A26C3DD24003D3761 /* NaviVC_II_VC_I.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E6FC3526C3DD24003D3761 /* NaviVC_II_VC_I.swift */; };
 		17E6FC3B26C3DD24003D3761 /* MainTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E6FC3626C3DD24003D3761 /* MainTabBarVC.swift */; };
-		17E6FC3C26C3DD24003D3761 /* NavigationControllerII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E6FC3726C3DD24003D3761 /* NavigationControllerII.swift */; };
-		17E6FC3D26C3DD24003D3761 /* NaviVCI_VCI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E6FC3826C3DD24003D3761 /* NaviVCI_VCI.swift */; };
+		17E6FC3C26C3DD24003D3761 /* NaviVC_II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E6FC3726C3DD24003D3761 /* NaviVC_II.swift */; };
+		17E6FC3D26C3DD24003D3761 /* NaviVC_I_VC_I.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E6FC3826C3DD24003D3761 /* NaviVC_I_VC_I.swift */; };
 		2B18D477EBDD37D4BAF51EE7 /* Pods_UI_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C74E419977A31CE5AD7FAD6 /* Pods_UI_Swift.framework */; };
 		2E5F72CF9E549BB73EDB473A /* Pods_UI_Swift_UI_SwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882E98C28550A3CB8ED60EC9 /* Pods_UI_Swift_UI_SwiftUITests.framework */; };
 		ACC91DB3B11D9D8795AE3CC4 /* Pods_UI_SwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25997376C3CED0E61DDC111A /* Pods_UI_SwiftTests.framework */; };
@@ -65,6 +65,7 @@
 		1745775D26D7379200320B1D /* StructModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructModel.swift; sourceTree = "<group>"; };
 		1745776126D75F0500320B1D /* PlaygroundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundViewController.swift; sourceTree = "<group>"; };
 		1758E52026C3FDCA008C4C36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17C7292026E70DB0001ED516 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		17E6FBF526C3DA9B003D3761 /* UI_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UI_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E6FBF826C3DA9B003D3761 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17E6FBFA26C3DA9B003D3761 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,16 +79,16 @@
 		17E6FC1626C3DA9D003D3761 /* UI_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UI_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E6FC1A26C3DA9D003D3761 /* UI_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI_SwiftUITests.swift; sourceTree = "<group>"; };
 		17E6FC1C26C3DA9D003D3761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		17E6FC2926C3DD19003D3761 /* ViewControllerIII.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerIII.swift; sourceTree = "<group>"; };
-		17E6FC2A26C3DD19003D3761 /* ViewControllerI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerI.swift; sourceTree = "<group>"; };
+		17E6FC2926C3DD19003D3761 /* ViewController_III.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController_III.swift; sourceTree = "<group>"; };
+		17E6FC2A26C3DD19003D3761 /* ViewController_I.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController_I.swift; sourceTree = "<group>"; };
 		17E6FC2B26C3DD19003D3761 /* MainNaviVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNaviVC.swift; sourceTree = "<group>"; };
-		17E6FC2C26C3DD19003D3761 /* ViewControllerII.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerII.swift; sourceTree = "<group>"; };
-		17E6FC2D26C3DD19003D3761 /* ViewControllerIV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerIV.swift; sourceTree = "<group>"; };
-		17E6FC3426C3DD24003D3761 /* NavigationControllerI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllerI.swift; sourceTree = "<group>"; };
-		17E6FC3526C3DD24003D3761 /* NaviVCII_VCI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaviVCII_VCI.swift; sourceTree = "<group>"; };
+		17E6FC2C26C3DD19003D3761 /* ViewController_II.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController_II.swift; sourceTree = "<group>"; };
+		17E6FC2D26C3DD19003D3761 /* ViewController_IV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController_IV.swift; sourceTree = "<group>"; };
+		17E6FC3426C3DD24003D3761 /* NaviVC_I.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaviVC_I.swift; sourceTree = "<group>"; };
+		17E6FC3526C3DD24003D3761 /* NaviVC_II_VC_I.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaviVC_II_VC_I.swift; sourceTree = "<group>"; };
 		17E6FC3626C3DD24003D3761 /* MainTabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarVC.swift; sourceTree = "<group>"; };
-		17E6FC3726C3DD24003D3761 /* NavigationControllerII.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllerII.swift; sourceTree = "<group>"; };
-		17E6FC3826C3DD24003D3761 /* NaviVCI_VCI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaviVCI_VCI.swift; sourceTree = "<group>"; };
+		17E6FC3726C3DD24003D3761 /* NaviVC_II.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaviVC_II.swift; sourceTree = "<group>"; };
+		17E6FC3826C3DD24003D3761 /* NaviVC_I_VC_I.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaviVC_I_VC_I.swift; sourceTree = "<group>"; };
 		1C74E419977A31CE5AD7FAD6 /* Pods_UI_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UI_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		216FEE71288A9450187D345F /* Pods-UI_Swift-UI_SwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UI_Swift-UI_SwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-UI_Swift-UI_SwiftUITests/Pods-UI_Swift-UI_SwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		25997376C3CED0E61DDC111A /* Pods_UI_SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UI_SwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -164,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				1745776126D75F0500320B1D /* PlaygroundViewController.swift */,
+				17C7292026E70DB0001ED516 /* MyPlayground.playground */,
 				1745775B26D7378100320B1D /* ClassModel.swift */,
 				1745775D26D7379200320B1D /* StructModel.swift */,
 			);
@@ -235,10 +237,10 @@
 			isa = PBXGroup;
 			children = (
 				17E6FC2B26C3DD19003D3761 /* MainNaviVC.swift */,
-				17E6FC2A26C3DD19003D3761 /* ViewControllerI.swift */,
-				17E6FC2C26C3DD19003D3761 /* ViewControllerII.swift */,
-				17E6FC2926C3DD19003D3761 /* ViewControllerIII.swift */,
-				17E6FC2D26C3DD19003D3761 /* ViewControllerIV.swift */,
+				17E6FC2A26C3DD19003D3761 /* ViewController_I.swift */,
+				17E6FC2C26C3DD19003D3761 /* ViewController_II.swift */,
+				17E6FC2926C3DD19003D3761 /* ViewController_III.swift */,
+				17E6FC2D26C3DD19003D3761 /* ViewController_IV.swift */,
 			);
 			path = NaviVC;
 			sourceTree = "<group>";
@@ -247,10 +249,10 @@
 			isa = PBXGroup;
 			children = (
 				17E6FC3626C3DD24003D3761 /* MainTabBarVC.swift */,
-				17E6FC3426C3DD24003D3761 /* NavigationControllerI.swift */,
-				17E6FC3826C3DD24003D3761 /* NaviVCI_VCI.swift */,
-				17E6FC3726C3DD24003D3761 /* NavigationControllerII.swift */,
-				17E6FC3526C3DD24003D3761 /* NaviVCII_VCI.swift */,
+				17E6FC3426C3DD24003D3761 /* NaviVC_I.swift */,
+				17E6FC3826C3DD24003D3761 /* NaviVC_I_VC_I.swift */,
+				17E6FC3726C3DD24003D3761 /* NaviVC_II.swift */,
+				17E6FC3526C3DD24003D3761 /* NaviVC_II_VC_I.swift */,
 			);
 			path = TabBarVC;
 			sourceTree = "<group>";
@@ -521,27 +523,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17E6FC3D26C3DD24003D3761 /* NaviVCI_VCI.swift in Sources */,
-				17E6FC2E26C3DD1A003D3761 /* ViewControllerIII.swift in Sources */,
+				17E6FC3D26C3DD24003D3761 /* NaviVC_I_VC_I.swift in Sources */,
+				17E6FC2E26C3DD1A003D3761 /* ViewController_III.swift in Sources */,
 				1727786C26DF1B4E009F85C3 /* CollectionVCI.swift in Sources */,
 				1727786A26DF14F1009F85C3 /* CollectionViewControllerI.swift in Sources */,
 				1727787126DF2A9F009F85C3 /* UIColor+UI.swift in Sources */,
 				1745775E26D7379200320B1D /* StructModel.swift in Sources */,
-				17E6FC3C26C3DD24003D3761 /* NavigationControllerII.swift in Sources */,
+				17E6FC3C26C3DD24003D3761 /* NaviVC_II.swift in Sources */,
 				1745775C26D7378100320B1D /* ClassModel.swift in Sources */,
 				17E6FC3026C3DD1A003D3761 /* MainNaviVC.swift in Sources */,
-				17E6FC3126C3DD1A003D3761 /* ViewControllerII.swift in Sources */,
-				17E6FC3926C3DD24003D3761 /* NavigationControllerI.swift in Sources */,
+				17E6FC3126C3DD1A003D3761 /* ViewController_II.swift in Sources */,
+				17E6FC3926C3DD24003D3761 /* NaviVC_I.swift in Sources */,
 				17E6FBF926C3DA9B003D3761 /* AppDelegate.swift in Sources */,
 				1745776226D75F0500320B1D /* PlaygroundViewController.swift in Sources */,
 				1727786E26DF1BAE009F85C3 /* TagCell.swift in Sources */,
 				17E6FBFB26C3DA9B003D3761 /* SceneDelegate.swift in Sources */,
 				1758E52126C3FDCA008C4C36 /* ViewController.swift in Sources */,
-				17E6FC2F26C3DD1A003D3761 /* ViewControllerI.swift in Sources */,
+				17E6FC2F26C3DD1A003D3761 /* ViewController_I.swift in Sources */,
 				1745775926D6089E00320B1D /* MyViewController.swift in Sources */,
 				17E6FC3B26C3DD24003D3761 /* MainTabBarVC.swift in Sources */,
-				17E6FC3226C3DD1A003D3761 /* ViewControllerIV.swift in Sources */,
-				17E6FC3A26C3DD24003D3761 /* NaviVCII_VCI.swift in Sources */,
+				17E6FC3226C3DD1A003D3761 /* ViewController_IV.swift in Sources */,
+				17E6FC3A26C3DD24003D3761 /* NaviVC_II_VC_I.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

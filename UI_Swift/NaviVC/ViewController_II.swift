@@ -1,5 +1,5 @@
 //
-//  ViewControllerII.swift
+//  ViewController_II.swift
 //  UI_Swift
 //
 //  Created by PxLand on 2021/8/11.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewControllerII: MyViewController {
+class ViewController_II: MyViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
