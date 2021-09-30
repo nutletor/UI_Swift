@@ -69,6 +69,12 @@ class ViewController_I: MyViewController {
         
         let viewIV = view.viewWithTag(101)
         print(viewIV!)
+        
+        
+        
+        print(UIScreen.main.bounds)
+        print(UIScreen.main.nativeScale)
+        print(UIScreen.main.nativeBounds)
     }
     
     func changeColor(_ view:UIView) {

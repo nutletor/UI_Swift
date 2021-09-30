@@ -1,5 +1,5 @@
 //
-//  CollectionVCI.swift
+//  CollectionVC_I.swift
 //  UI_Swift
 //
 //  Created by PxLand on 2021/9/1.
@@ -10,7 +10,7 @@ import UIKit
 
 private let reuseIdentifier = "TagCell"
 
-class CollectionVCI: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+class CollectionVC_I: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
 //    var collectionView: UICollectionView
 //

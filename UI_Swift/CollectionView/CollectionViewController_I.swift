@@ -1,5 +1,5 @@
 //
-//  CollectionViewControllerI.swift
+//  CollectionViewController_I.swift
 //  UI_Swift
 //
 //  Created by PxLand on 2021/9/1.
@@ -10,7 +10,7 @@ import UIKit
 
 private let reuseIdentifier = "Cell"
 
-class CollectionViewControllerI: UICollectionViewController {
+class CollectionViewController_I: UICollectionViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1727786A26DF14F1009F85C3 /* CollectionViewControllerI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1727786926DF14F1009F85C3 /* CollectionViewControllerI.swift */; };
-		1727786C26DF1B4E009F85C3 /* CollectionVCI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1727786B26DF1B4E009F85C3 /* CollectionVCI.swift */; };
+		1727786A26DF14F1009F85C3 /* CollectionViewController_I.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1727786926DF14F1009F85C3 /* CollectionViewController_I.swift */; };
+		1727786C26DF1B4E009F85C3 /* CollectionVC_I.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1727786B26DF1B4E009F85C3 /* CollectionVC_I.swift */; };
 		1727786E26DF1BAE009F85C3 /* TagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1727786D26DF1BAE009F85C3 /* TagCell.swift */; };
 		1727787126DF2A9F009F85C3 /* UIColor+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1727787026DF2A9F009F85C3 /* UIColor+UI.swift */; };
 		1745775926D6089E00320B1D /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745775826D6089E00320B1D /* MyViewController.swift */; };
@@ -56,8 +56,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1727786926DF14F1009F85C3 /* CollectionViewControllerI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewControllerI.swift; sourceTree = "<group>"; };
-		1727786B26DF1B4E009F85C3 /* CollectionVCI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionVCI.swift; sourceTree = "<group>"; };
+		1727786926DF14F1009F85C3 /* CollectionViewController_I.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController_I.swift; sourceTree = "<group>"; };
+		1727786B26DF1B4E009F85C3 /* CollectionVC_I.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionVC_I.swift; sourceTree = "<group>"; };
 		1727786D26DF1BAE009F85C3 /* TagCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCell.swift; sourceTree = "<group>"; };
 		1727787026DF2A9F009F85C3 /* UIColor+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+UI.swift"; sourceTree = "<group>"; };
 		1745775826D6089E00320B1D /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
@@ -131,8 +131,8 @@
 		1727786826DF14C2009F85C3 /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				1727786926DF14F1009F85C3 /* CollectionViewControllerI.swift */,
-				1727786B26DF1B4E009F85C3 /* CollectionVCI.swift */,
+				1727786926DF14F1009F85C3 /* CollectionViewController_I.swift */,
+				1727786B26DF1B4E009F85C3 /* CollectionVC_I.swift */,
 				1727786D26DF1BAE009F85C3 /* TagCell.swift */,
 			);
 			path = CollectionView;
@@ -525,8 +525,8 @@
 			files = (
 				17E6FC3D26C3DD24003D3761 /* NaviVC_I_VC_I.swift in Sources */,
 				17E6FC2E26C3DD1A003D3761 /* ViewController_III.swift in Sources */,
-				1727786C26DF1B4E009F85C3 /* CollectionVCI.swift in Sources */,
-				1727786A26DF14F1009F85C3 /* CollectionViewControllerI.swift in Sources */,
+				1727786C26DF1B4E009F85C3 /* CollectionVC_I.swift in Sources */,
+				1727786A26DF14F1009F85C3 /* CollectionViewController_I.swift in Sources */,
 				1727787126DF2A9F009F85C3 /* UIColor+UI.swift in Sources */,
 				1745775E26D7379200320B1D /* StructModel.swift in Sources */,
 				17E6FC3C26C3DD24003D3761 /* NaviVC_II.swift in Sources */,
