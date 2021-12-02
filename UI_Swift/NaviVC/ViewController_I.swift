@@ -16,7 +16,7 @@ class ViewController_I: MyViewController {
 //        是否隐藏导航栏
 //        navigationController?.navigationBar.isHidden = true
         
-        makeUI()
+         makeUI()
     }
     
     override func viewWillAppear(_ animated: Bool) {
